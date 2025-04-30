@@ -10,9 +10,9 @@ import javax.imageio.ImageIO;
 import main.Game;
 
 public class LoadSave {
-//code de vay thoi chua co du imgages lam level
-	public static final String PLAYER_ATLAS = "PlayerSprite.png";
-	public static final String LEVEL_ATLAS = "outside_sprites.png";
+
+	public static final String PLAYER_ATLAS = "PlayerSpite.png";
+	public static final String LEVEL_ATLAS = "BackgroundLevel.png";
 	public static final String LEVEL_ONE_DATA = "level_one_data.png";
 
 	public static BufferedImage GetSpriteAtlas(String fileName) {
