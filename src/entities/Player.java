@@ -75,7 +75,7 @@ public class Player extends Entity {
 		
 
 		if (attacking)
-			playerAction = ATTACK_1;
+			playerAction = ATTACK;
 
 		if (startAni != playerAction)
 			resetAniTick();
