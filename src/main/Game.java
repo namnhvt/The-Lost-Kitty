@@ -3,7 +3,7 @@ package main;
 import java.awt.Graphics;
 
 import entities.Player;
-import Level.LevelManager;
+import levels.LevelManager;
 
 public class Game implements Runnable {
 
